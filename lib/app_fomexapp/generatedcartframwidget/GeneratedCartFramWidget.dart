@@ -13,27 +13,24 @@ class GeneratedCartFramWidget extends StatelessWidget {
       child: Container(
         width: 352.0,
         height: 115.0,
-        child: Stack(
-            fit: StackFit.expand,
-            alignment: Alignment.center,
-            overflow: Overflow.visible,
-            children: [
-              ClipRRect(
-                borderRadius: BorderRadius.zero,
-                child: Container(
-                  color: Color.fromARGB(0, 255, 255, 255),
-                ),
-              ),
-              Positioned(
-                left: 0.0,
-                top: 0.0,
-                right: null,
-                bottom: null,
-                width: 352.0,
-                height: 115.0,
-                child: GeneratedFrameProdutoWidget4(),
-              )
-            ]),
+        child:
+            Stack(fit: StackFit.expand, alignment: Alignment.center, children: [
+          ClipRRect(
+            borderRadius: BorderRadius.zero,
+            child: Container(
+              color: Color.fromARGB(0, 255, 255, 255),
+            ),
+          ),
+          Positioned(
+            left: 0.0,
+            top: 0.0,
+            right: null,
+            bottom: null,
+            width: 352.0,
+            height: 115.0,
+            child: GeneratedFrameProdutoWidget4(),
+          )
+        ]),
       ),
     ));
   }

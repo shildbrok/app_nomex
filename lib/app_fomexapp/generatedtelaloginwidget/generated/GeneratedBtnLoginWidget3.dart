@@ -18,31 +18,28 @@ class GeneratedBtnLoginWidget3 extends StatelessWidget {
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(15.0),
         ),
-        child: Stack(
-            fit: StackFit.expand,
-            alignment: Alignment.center,
-            overflow: Overflow.visible,
-            children: [
-              Positioned(
-                left: null,
-                top: null,
-                right: null,
-                bottom: null,
-                width: 107.0,
-                height: 26.0,
-                child: GeneratedRectangle3Widget3(),
-              ),
-              Positioned(
-                left: null,
-                top: null,
-                right: null,
-                bottom: null,
-                width: 77.0,
-                height: 20.0,
-                child: TransformHelper.translate(
-                    x: 3.00, y: 3.00, z: 0, child: GeneratedCADASTRARWidget1()),
-              )
-            ]),
+        child:
+            Stack(fit: StackFit.expand, alignment: Alignment.center, children: [
+          Positioned(
+            left: null,
+            top: null,
+            right: null,
+            bottom: null,
+            width: 107.0,
+            height: 26.0,
+            child: GeneratedRectangle3Widget3(),
+          ),
+          Positioned(
+            left: null,
+            top: null,
+            right: null,
+            bottom: null,
+            width: 77.0,
+            height: 20.0,
+            child: TransformHelper.translate(
+                x: 3.00, y: 3.00, z: 0, child: GeneratedCADASTRARWidget1()),
+          )
+        ]),
       ),
     );
   }

@@ -31,209 +31,194 @@ class GeneratedCadEmpresaFieldWidget1 extends StatelessWidget {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(0.0),
       ),
-      child: Stack(
-          fit: StackFit.expand,
-          alignment: Alignment.center,
-          overflow: Overflow.visible,
-          children: [
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 319.0,
-              height: 626.0,
-              child: GeneratedRectangle3Widget11(),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 280.0,
-              height: 35.0,
-              child: TransformHelper.translate(
-                  x: -0.50, y: -127.50, z: 0, child: GeneratedFrame12Widget2()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 129.0,
-              height: 17.0,
-              child: TransformHelper.translate(
-                  x: -72.00,
-                  y: -149.50,
-                  z: 0,
-                  child: GeneratedNomedoprodutoWidget()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 280.0,
-              height: 31.0,
-              child: TransformHelper.translate(
-                  x: -1.50, y: -71.14, z: 0, child: GeneratedFrame13Widget2()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 46.0,
-              height: 20.0,
-              child: TransformHelper.translate(
-                  x: -113.50, y: -93.64, z: 0, child: GeneratedCdigoWidget1()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 280.0,
-              height: 31.0,
-              child: TransformHelper.translate(
-                  x: -1.50, y: 36.50, z: 0, child: GeneratedFrame14Widget2()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 94.0,
-              height: 17.0,
-              child: TransformHelper.translate(
-                  x: -89.50,
-                  y: 12.50,
-                  z: 0,
-                  child: GeneratedTipodoProdutoWidget()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 280.0,
-              height: 31.0,
-              child: TransformHelper.translate(
-                  x: -1.50, y: 91.50, z: 0, child: GeneratedFrame15Widget2()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 38.0,
-              height: 20.0,
-              child: TransformHelper.translate(
-                  x: -117.50, y: 69.00, z: 0, child: GeneratedPreoWidget1()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 280.0,
-              height: 31.0,
-              child: TransformHelper.translate(
-                  x: -1.50, y: 146.50, z: 0, child: GeneratedFrame16Widget2()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 80.0,
-              height: 20.0,
-              child: TransformHelper.translate(
-                  x: -96.50,
-                  y: 124.00,
-                  z: 0,
-                  child: GeneratedObservaesWidget()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 280.0,
-              height: 31.0,
-              child: TransformHelper.translate(
-                  x: -1.50, y: 201.50, z: 0, child: GeneratedFrame17Widget2()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 52.0,
-              height: 20.0,
-              child: TransformHelper.translate(
-                  x: -110.50,
-                  y: 179.00,
-                  z: 0,
-                  child: GeneratedEstoqueWidget1()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 78.0,
-              height: 78.0,
-              child: TransformHelper.translate(
-                  x: 0.50, y: -223.00, z: 0, child: GeneratedEllipse2Widget2()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 114.0,
-              height: 17.0,
-              child: TransformHelper.translate(
-                  x: 1.50,
-                  y: -282.50,
-                  z: 0,
-                  child: GeneratedImagemdoProdutoWidget()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 107.0,
-              height: 26.0,
-              child: TransformHelper.translate(
-                  x: 0.00,
-                  y: 269.00,
-                  z: 0,
-                  child: GeneratedBtnCadastrarWidget1()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 280.0,
-              height: 31.0,
-              child: TransformHelper.translate(
-                  x: -1.50, y: -17.50, z: 0, child: GeneratedFrame18Widget1()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 41.0,
-              height: 20.0,
-              child: TransformHelper.translate(
-                  x: -116.00, y: -38.00, z: 0, child: GeneratedMarcaWidget1()),
-            )
-          ]),
+      child:
+          Stack(fit: StackFit.expand, alignment: Alignment.center, children: [
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 319.0,
+          height: 626.0,
+          child: GeneratedRectangle3Widget11(),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 280.0,
+          height: 35.0,
+          child: TransformHelper.translate(
+              x: -0.50, y: -127.50, z: 0, child: GeneratedFrame12Widget2()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 129.0,
+          height: 17.0,
+          child: TransformHelper.translate(
+              x: -72.00,
+              y: -149.50,
+              z: 0,
+              child: GeneratedNomedoprodutoWidget()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 280.0,
+          height: 31.0,
+          child: TransformHelper.translate(
+              x: -1.50, y: -71.14, z: 0, child: GeneratedFrame13Widget2()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 46.0,
+          height: 20.0,
+          child: TransformHelper.translate(
+              x: -113.50, y: -93.64, z: 0, child: GeneratedCdigoWidget1()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 280.0,
+          height: 31.0,
+          child: TransformHelper.translate(
+              x: -1.50, y: 36.50, z: 0, child: GeneratedFrame14Widget2()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 94.0,
+          height: 17.0,
+          child: TransformHelper.translate(
+              x: -89.50, y: 12.50, z: 0, child: GeneratedTipodoProdutoWidget()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 280.0,
+          height: 31.0,
+          child: TransformHelper.translate(
+              x: -1.50, y: 91.50, z: 0, child: GeneratedFrame15Widget2()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 38.0,
+          height: 20.0,
+          child: TransformHelper.translate(
+              x: -117.50, y: 69.00, z: 0, child: GeneratedPreoWidget1()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 280.0,
+          height: 31.0,
+          child: TransformHelper.translate(
+              x: -1.50, y: 146.50, z: 0, child: GeneratedFrame16Widget2()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 80.0,
+          height: 20.0,
+          child: TransformHelper.translate(
+              x: -96.50, y: 124.00, z: 0, child: GeneratedObservaesWidget()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 280.0,
+          height: 31.0,
+          child: TransformHelper.translate(
+              x: -1.50, y: 201.50, z: 0, child: GeneratedFrame17Widget2()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 52.0,
+          height: 20.0,
+          child: TransformHelper.translate(
+              x: -110.50, y: 179.00, z: 0, child: GeneratedEstoqueWidget1()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 78.0,
+          height: 78.0,
+          child: TransformHelper.translate(
+              x: 0.50, y: -223.00, z: 0, child: GeneratedEllipse2Widget2()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 114.0,
+          height: 17.0,
+          child: TransformHelper.translate(
+              x: 1.50,
+              y: -282.50,
+              z: 0,
+              child: GeneratedImagemdoProdutoWidget()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 107.0,
+          height: 26.0,
+          child: TransformHelper.translate(
+              x: 0.00, y: 269.00, z: 0, child: GeneratedBtnCadastrarWidget1()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 280.0,
+          height: 31.0,
+          child: TransformHelper.translate(
+              x: -1.50, y: -17.50, z: 0, child: GeneratedFrame18Widget1()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 41.0,
+          height: 20.0,
+          child: TransformHelper.translate(
+              x: -116.00, y: -38.00, z: 0, child: GeneratedMarcaWidget1()),
+        )
+      ]),
     );
   }
 }

@@ -13,27 +13,24 @@ class GeneratedFrame8Widget extends StatelessWidget {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(10.0),
       ),
-      child: Stack(
-          fit: StackFit.expand,
-          alignment: Alignment.center,
-          overflow: Overflow.visible,
-          children: [
-            ClipRRect(
-              borderRadius: BorderRadius.circular(10.0),
-              child: Container(
-                color: Color.fromARGB(255, 39, 174, 96),
-              ),
-            ),
-            Positioned(
-              left: 12.0,
-              top: 5.0,
-              right: null,
-              bottom: null,
-              width: 72.0,
-              height: 20.0,
-              child: GeneratedLanchoneteWidget(),
-            )
-          ]),
+      child:
+          Stack(fit: StackFit.expand, alignment: Alignment.center, children: [
+        ClipRRect(
+          borderRadius: BorderRadius.circular(10.0),
+          child: Container(
+            color: Color.fromARGB(255, 39, 174, 96),
+          ),
+        ),
+        Positioned(
+          left: 12.0,
+          top: 5.0,
+          right: null,
+          bottom: null,
+          width: 72.0,
+          height: 20.0,
+          child: GeneratedLanchoneteWidget(),
+        )
+      ]),
     );
   }
 }

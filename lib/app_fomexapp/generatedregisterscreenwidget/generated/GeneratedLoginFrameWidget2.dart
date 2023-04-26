@@ -28,167 +28,164 @@ class GeneratedLoginFrameWidget2 extends StatelessWidget {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(0.0),
       ),
-      child: Stack(
-          fit: StackFit.expand,
-          alignment: Alignment.center,
-          overflow: Overflow.visible,
-          children: [
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 322.0,
-              height: 476.0,
-              child: GeneratedRectangle2Widget4(),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 52.0,
-              height: 27.0,
-              child: TransformHelper.translate(
-                  x: 2.00, y: -202.50, z: 0, child: GeneratedLoginWidget2()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 97.0,
-              height: 17.0,
-              child: TransformHelper.translate(
-                  x: -95.50,
-                  y: -158.50,
-                  z: 0,
-                  child: GeneratedEmaildeacessoWidget2()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 287.0,
-              height: 31.0,
-              child: TransformHelper.translate(
-                  x: -0.50, y: -136.50, z: 0, child: GeneratedFrame1Widget2()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 44.0,
-              height: 20.0,
-              child: TransformHelper.translate(
-                  x: -122.00, y: -100.00, z: 0, child: GeneratedSenhaWidget2()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 287.0,
-              height: 31.0,
-              child: TransformHelper.translate(
-                  x: -0.50, y: -79.50, z: 0, child: GeneratedFrame2Widget2()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 236.0,
-              height: 0.0,
-              child: TransformHelper.translate(
-                  x: 0.00, y: 128.00, z: 0, child: GeneratedVector1Widget2()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 107.0,
-              height: 26.0,
-              child: TransformHelper.translate(
-                  x: -0.50, y: 185.00, z: 0, child: GeneratedBtnLoginWidget4()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 107.0,
-              height: 26.0,
-              child: TransformHelper.translate(
-                  x: -0.50, y: 150.00, z: 0, child: GeneratedBtnCadWidget()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 104.0,
-              height: 17.0,
-              child: TransformHelper.translate(
-                  x: -92.00,
-                  y: -44.50,
-                  z: 0,
-                  child: GeneratedRepitasuaSenhaWidget()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 287.0,
-              height: 31.0,
-              child: TransformHelper.translate(
-                  x: -0.50, y: -22.50, z: 0, child: GeneratedFrame3Widget()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 42.0,
-              height: 20.0,
-              child: TransformHelper.translate(
-                  x: -123.00, y: 9.00, z: 0, child: GeneratedNomeWidget()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 287.0,
-              height: 31.0,
-              child: TransformHelper.translate(
-                  x: -0.50, y: 29.50, z: 0, child: GeneratedFrame4Widget()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 54.0,
-              height: 20.0,
-              child: TransformHelper.translate(
-                  x: -117.00, y: 61.00, z: 0, child: GeneratedNumeroWidget()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 287.0,
-              height: 31.0,
-              child: TransformHelper.translate(
-                  x: -0.50, y: 81.50, z: 0, child: GeneratedFrame5Widget()),
-            )
-          ]),
+      child:
+          Stack(fit: StackFit.expand, alignment: Alignment.center, children: [
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 322.0,
+          height: 476.0,
+          child: GeneratedRectangle2Widget4(),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 52.0,
+          height: 27.0,
+          child: TransformHelper.translate(
+              x: 2.00, y: -202.50, z: 0, child: GeneratedLoginWidget2()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 97.0,
+          height: 17.0,
+          child: TransformHelper.translate(
+              x: -95.50,
+              y: -158.50,
+              z: 0,
+              child: GeneratedEmaildeacessoWidget2()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 287.0,
+          height: 31.0,
+          child: TransformHelper.translate(
+              x: -0.50, y: -136.50, z: 0, child: GeneratedFrame1Widget2()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 44.0,
+          height: 20.0,
+          child: TransformHelper.translate(
+              x: -122.00, y: -100.00, z: 0, child: GeneratedSenhaWidget2()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 287.0,
+          height: 31.0,
+          child: TransformHelper.translate(
+              x: -0.50, y: -79.50, z: 0, child: GeneratedFrame2Widget2()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 236.0,
+          height: 0.0,
+          child: TransformHelper.translate(
+              x: 0.00, y: 128.00, z: 0, child: GeneratedVector1Widget2()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 107.0,
+          height: 26.0,
+          child: TransformHelper.translate(
+              x: -0.50, y: 185.00, z: 0, child: GeneratedBtnLoginWidget4()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 107.0,
+          height: 26.0,
+          child: TransformHelper.translate(
+              x: -0.50, y: 150.00, z: 0, child: GeneratedBtnCadWidget()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 104.0,
+          height: 17.0,
+          child: TransformHelper.translate(
+              x: -92.00,
+              y: -44.50,
+              z: 0,
+              child: GeneratedRepitasuaSenhaWidget()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 287.0,
+          height: 31.0,
+          child: TransformHelper.translate(
+              x: -0.50, y: -22.50, z: 0, child: GeneratedFrame3Widget()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 42.0,
+          height: 20.0,
+          child: TransformHelper.translate(
+              x: -123.00, y: 9.00, z: 0, child: GeneratedNomeWidget()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 287.0,
+          height: 31.0,
+          child: TransformHelper.translate(
+              x: -0.50, y: 29.50, z: 0, child: GeneratedFrame4Widget()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 54.0,
+          height: 20.0,
+          child: TransformHelper.translate(
+              x: -117.00, y: 61.00, z: 0, child: GeneratedNumeroWidget()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 287.0,
+          height: 31.0,
+          child: TransformHelper.translate(
+              x: -0.50, y: 81.50, z: 0, child: GeneratedFrame5Widget()),
+        )
+      ]),
     );
   }
 }

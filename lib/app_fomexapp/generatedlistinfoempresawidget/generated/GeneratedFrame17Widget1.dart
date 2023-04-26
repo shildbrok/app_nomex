@@ -23,27 +23,24 @@ class GeneratedFrame17Widget1 extends StatelessWidget {
                 )
               ],
       ),
-      child: Stack(
-          fit: StackFit.expand,
-          alignment: Alignment.center,
-          overflow: Overflow.visible,
-          children: [
-            ClipRRect(
-              borderRadius: BorderRadius.circular(10.0),
-              child: Container(
-                color: Color.fromARGB(255, 255, 255, 255),
-              ),
-            ),
-            Positioned(
-              left: 140.5,
-              top: 10.0,
-              right: null,
-              bottom: null,
-              width: 76.0,
-              height: 20.0,
-              child: GeneratedInformaesWidget(),
-            )
-          ]),
+      child:
+          Stack(fit: StackFit.expand, alignment: Alignment.center, children: [
+        ClipRRect(
+          borderRadius: BorderRadius.circular(10.0),
+          child: Container(
+            color: Color.fromARGB(255, 255, 255, 255),
+          ),
+        ),
+        Positioned(
+          left: 140.5,
+          top: 10.0,
+          right: null,
+          bottom: null,
+          width: 76.0,
+          height: 20.0,
+          child: GeneratedInformaesWidget(),
+        )
+      ]),
     );
   }
 }

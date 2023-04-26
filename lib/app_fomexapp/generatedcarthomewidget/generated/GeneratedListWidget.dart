@@ -22,261 +22,249 @@ class GeneratedListWidget extends StatelessWidget {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(0.0),
       ),
-      child: Stack(
-          fit: StackFit.expand,
-          alignment: Alignment.center,
-          overflow: Overflow.visible,
-          children: [
-            Positioned(
-              left: 0.0,
-              top: null,
-              right: 0.0,
-              bottom: null,
-              width: null,
-              height: 183.0,
+      child:
+          Stack(fit: StackFit.expand, alignment: Alignment.center, children: [
+        Positioned(
+          left: 0.0,
+          top: null,
+          right: 0.0,
+          bottom: null,
+          width: null,
+          height: 183.0,
+          child: LayoutBuilder(
+              builder: (BuildContext context, BoxConstraints constraints) {
+            final double width = constraints.maxWidth;
+
+            return Stack(children: [
+              TransformHelper.translate(
+                  x: 0,
+                  y: 0,
+                  z: 0,
+                  child: Container(
+                    width: width,
+                    child: GeneratedRectangle9Widget(),
+                  ))
+            ]);
+          }),
+        ),
+        Positioned(
+          left: 0.0,
+          top: null,
+          right: 0.0,
+          bottom: null,
+          width: null,
+          height: 26.0,
+          child: TransformHelper.translate(
+              x: 0.00,
+              y: -65.50,
+              z: 0,
               child: LayoutBuilder(
                   builder: (BuildContext context, BoxConstraints constraints) {
-                final double width = constraints.maxWidth;
+                final double width = constraints.maxWidth * 0.44886363636363635;
 
                 return Stack(children: [
                   TransformHelper.translate(
-                      x: 0,
+                      x: constraints.maxWidth * 0.2784090909090909,
                       y: 0,
                       z: 0,
                       child: Container(
                         width: width,
-                        child: GeneratedRectangle9Widget(),
+                        child: GeneratedListadeCompraWidget(),
                       ))
                 ]);
-              }),
-            ),
-            Positioned(
-              left: 0.0,
-              top: null,
-              right: 0.0,
-              bottom: null,
-              width: null,
-              height: 26.0,
-              child: TransformHelper.translate(
-                  x: 0.00,
-                  y: -65.50,
-                  z: 0,
-                  child: LayoutBuilder(builder:
-                      (BuildContext context, BoxConstraints constraints) {
-                    final double width =
-                        constraints.maxWidth * 0.44886363636363635;
+              })),
+        ),
+        Positioned(
+          left: 0.0,
+          top: null,
+          right: 0.0,
+          bottom: null,
+          width: null,
+          height: 0.0,
+          child: TransformHelper.translate(
+              x: 0.00,
+              y: 17.50,
+              z: 0,
+              child: LayoutBuilder(
+                  builder: (BuildContext context, BoxConstraints constraints) {
+                double percentWidth = 0.9048295454545454;
+                double scaleX = (constraints.maxWidth * percentWidth) / 318.5;
 
-                    return Stack(children: [
-                      TransformHelper.translate(
-                          x: constraints.maxWidth * 0.2784090909090909,
-                          y: 0,
-                          z: 0,
-                          child: Container(
-                            width: width,
-                            child: GeneratedListadeCompraWidget(),
-                          ))
-                    ]);
-                  })),
-            ),
-            Positioned(
-              left: 0.0,
-              top: null,
-              right: 0.0,
-              bottom: null,
-              width: null,
-              height: 0.0,
-              child: TransformHelper.translate(
-                  x: 0.00,
-                  y: 17.50,
-                  z: 0,
-                  child: LayoutBuilder(builder:
-                      (BuildContext context, BoxConstraints constraints) {
-                    double percentWidth = 0.9048295454545454;
-                    double scaleX =
-                        (constraints.maxWidth * percentWidth) / 318.5;
+                return Stack(children: [
+                  TransformHelper.translateAndScale(
+                      translateX: constraints.maxWidth * 0.048295454545454544,
+                      translateY: 0,
+                      translateZ: 0,
+                      scaleX: scaleX,
+                      scaleY: 1,
+                      scaleZ: 1,
+                      child: GeneratedVector2Widget())
+                ]);
+              })),
+        ),
+        Positioned(
+          left: 0.0,
+          top: null,
+          right: 0.0,
+          bottom: null,
+          width: null,
+          height: 17.0,
+          child: TransformHelper.translate(
+              x: 0.00,
+              y: -26.00,
+              z: 0,
+              child: LayoutBuilder(
+                  builder: (BuildContext context, BoxConstraints constraints) {
+                final double width = constraints.maxWidth * 0.22443181818181818;
 
-                    return Stack(children: [
-                      TransformHelper.translateAndScale(
-                          translateX:
-                              constraints.maxWidth * 0.048295454545454544,
-                          translateY: 0,
-                          translateZ: 0,
-                          scaleX: scaleX,
-                          scaleY: 1,
-                          scaleZ: 1,
-                          child: GeneratedVector2Widget())
-                    ]);
-                  })),
-            ),
-            Positioned(
-              left: 0.0,
-              top: null,
-              right: 0.0,
-              bottom: null,
-              width: null,
-              height: 17.0,
-              child: TransformHelper.translate(
-                  x: 0.00,
-                  y: -26.00,
-                  z: 0,
-                  child: LayoutBuilder(builder:
-                      (BuildContext context, BoxConstraints constraints) {
-                    final double width =
-                        constraints.maxWidth * 0.22443181818181818;
+                return Stack(children: [
+                  TransformHelper.translate(
+                      x: constraints.maxWidth * 0.07670454545454546,
+                      y: 0,
+                      z: 0,
+                      child: Container(
+                        width: width,
+                        child: GeneratedVaper500xsWidget(),
+                      ))
+                ]);
+              })),
+        ),
+        Positioned(
+          left: 0.0,
+          top: null,
+          right: 0.0,
+          bottom: null,
+          width: null,
+          height: 17.0,
+          child: TransformHelper.translate(
+              x: 0.00,
+              y: -26.00,
+              z: 0,
+              child: LayoutBuilder(
+                  builder: (BuildContext context, BoxConstraints constraints) {
+                final double width = constraints.maxWidth * 0.22443181818181818;
 
-                    return Stack(children: [
-                      TransformHelper.translate(
-                          x: constraints.maxWidth * 0.07670454545454546,
-                          y: 0,
-                          z: 0,
-                          child: Container(
-                            width: width,
-                            child: GeneratedVaper500xsWidget(),
-                          ))
-                    ]);
-                  })),
-            ),
-            Positioned(
-              left: 0.0,
-              top: null,
-              right: 0.0,
-              bottom: null,
-              width: null,
-              height: 17.0,
-              child: TransformHelper.translate(
-                  x: 0.00,
-                  y: -26.00,
-                  z: 0,
-                  child: LayoutBuilder(builder:
-                      (BuildContext context, BoxConstraints constraints) {
-                    final double width =
-                        constraints.maxWidth * 0.22443181818181818;
+                return Stack(children: [
+                  TransformHelper.translate(
+                      x: constraints.maxWidth * 0.7045454545454546,
+                      y: 0,
+                      z: 0,
+                      child: Container(
+                        width: width,
+                        child: Generated3xR$50000Widget(),
+                      ))
+                ]);
+              })),
+        ),
+        Positioned(
+          left: 0.0,
+          top: null,
+          right: 0.0,
+          bottom: null,
+          width: null,
+          height: 19.0,
+          child: TransformHelper.translate(
+              x: 0.00,
+              y: 56.00,
+              z: 0,
+              child: LayoutBuilder(
+                  builder: (BuildContext context, BoxConstraints constraints) {
+                final double width = constraints.maxWidth * 0.23295454545454544;
 
-                    return Stack(children: [
-                      TransformHelper.translate(
-                          x: constraints.maxWidth * 0.7045454545454546,
-                          y: 0,
-                          z: 0,
-                          child: Container(
-                            width: width,
-                            child: Generated3xR$50000Widget(),
-                          ))
-                    ]);
-                  })),
-            ),
-            Positioned(
-              left: 0.0,
-              top: null,
-              right: 0.0,
-              bottom: null,
-              width: null,
-              height: 19.0,
-              child: TransformHelper.translate(
-                  x: 0.00,
-                  y: 56.00,
-                  z: 0,
-                  child: LayoutBuilder(builder:
-                      (BuildContext context, BoxConstraints constraints) {
-                    final double width =
-                        constraints.maxWidth * 0.23295454545454544;
+                return Stack(children: [
+                  TransformHelper.translate(
+                      x: constraints.maxWidth * 0.38636363636363635,
+                      y: 0,
+                      z: 0,
+                      child: Container(
+                        width: width,
+                        child: GeneratedR$275000Widget(),
+                      ))
+                ]);
+              })),
+        ),
+        Positioned(
+          left: 0.0,
+          top: null,
+          right: 0.0,
+          bottom: null,
+          width: null,
+          height: 17.0,
+          child: TransformHelper.translate(
+              x: 0.00,
+              y: -1.00,
+              z: 0,
+              child: LayoutBuilder(
+                  builder: (BuildContext context, BoxConstraints constraints) {
+                final double width = constraints.maxWidth * 0.32670454545454547;
 
-                    return Stack(children: [
-                      TransformHelper.translate(
-                          x: constraints.maxWidth * 0.38636363636363635,
-                          y: 0,
-                          z: 0,
-                          child: Container(
-                            width: width,
-                            child: GeneratedR$275000Widget(),
-                          ))
-                    ]);
-                  })),
-            ),
-            Positioned(
-              left: 0.0,
-              top: null,
-              right: 0.0,
-              bottom: null,
-              width: null,
-              height: 17.0,
-              child: TransformHelper.translate(
-                  x: 0.00,
-                  y: -1.00,
-                  z: 0,
-                  child: LayoutBuilder(builder:
-                      (BuildContext context, BoxConstraints constraints) {
-                    final double width =
-                        constraints.maxWidth * 0.32670454545454547;
+                return Stack(children: [
+                  TransformHelper.translate(
+                      x: constraints.maxWidth * 0.07670454545454546,
+                      y: 0,
+                      z: 0,
+                      child: Container(
+                        width: width,
+                        child: GeneratedCaixasCarvo10KgWidget1(),
+                      ))
+                ]);
+              })),
+        ),
+        Positioned(
+          left: 0.0,
+          top: null,
+          right: 0.0,
+          bottom: null,
+          width: null,
+          height: 17.0,
+          child: TransformHelper.translate(
+              x: 0.00,
+              y: -1.00,
+              z: 0,
+              child: LayoutBuilder(
+                  builder: (BuildContext context, BoxConstraints constraints) {
+                final double width = constraints.maxWidth * 0.2215909090909091;
 
-                    return Stack(children: [
-                      TransformHelper.translate(
-                          x: constraints.maxWidth * 0.07670454545454546,
-                          y: 0,
-                          z: 0,
-                          child: Container(
-                            width: width,
-                            child: GeneratedCaixasCarvo10KgWidget1(),
-                          ))
-                    ]);
-                  })),
-            ),
-            Positioned(
-              left: 0.0,
-              top: null,
-              right: 0.0,
-              bottom: null,
-              width: null,
-              height: 17.0,
-              child: TransformHelper.translate(
-                  x: 0.00,
-                  y: -1.00,
-                  z: 0,
-                  child: LayoutBuilder(builder:
-                      (BuildContext context, BoxConstraints constraints) {
-                    final double width =
-                        constraints.maxWidth * 0.2215909090909091;
+                return Stack(children: [
+                  TransformHelper.translate(
+                      x: constraints.maxWidth * 0.7045454545454546,
+                      y: 0,
+                      z: 0,
+                      child: Container(
+                        width: width,
+                        child: Generated5xR$25000Widget(),
+                      ))
+                ]);
+              })),
+        ),
+        Positioned(
+          left: 0.0,
+          top: null,
+          right: 0.0,
+          bottom: null,
+          width: null,
+          height: 15.0,
+          child: TransformHelper.translate(
+              x: 0.00,
+              y: 33.00,
+              z: 0,
+              child: LayoutBuilder(
+                  builder: (BuildContext context, BoxConstraints constraints) {
+                final double width = constraints.maxWidth * 0.08806818181818182;
 
-                    return Stack(children: [
-                      TransformHelper.translate(
-                          x: constraints.maxWidth * 0.7045454545454546,
-                          y: 0,
-                          z: 0,
-                          child: Container(
-                            width: width,
-                            child: Generated5xR$25000Widget(),
-                          ))
-                    ]);
-                  })),
-            ),
-            Positioned(
-              left: 0.0,
-              top: null,
-              right: 0.0,
-              bottom: null,
-              width: null,
-              height: 15.0,
-              child: TransformHelper.translate(
-                  x: 0.00,
-                  y: 33.00,
-                  z: 0,
-                  child: LayoutBuilder(builder:
-                      (BuildContext context, BoxConstraints constraints) {
-                    final double width =
-                        constraints.maxWidth * 0.08806818181818182;
-
-                    return Stack(children: [
-                      TransformHelper.translate(
-                          x: constraints.maxWidth * 0.4630681818181818,
-                          y: 0,
-                          z: 0,
-                          child: Container(
-                            width: width,
-                            child: GeneratedTOTALWidget(),
-                          ))
-                    ]);
-                  })),
-            )
-          ]),
+                return Stack(children: [
+                  TransformHelper.translate(
+                      x: constraints.maxWidth * 0.4630681818181818,
+                      y: 0,
+                      z: 0,
+                      child: Container(
+                        width: width,
+                        child: GeneratedTOTALWidget(),
+                      ))
+                ]);
+              })),
+        )
+      ]),
     );
   }
 }

@@ -19,169 +19,164 @@ class GeneratedGroup1Widget extends StatelessWidget {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(0.0),
       ),
-      child: Stack(
-          fit: StackFit.expand,
-          alignment: Alignment.center,
-          overflow: Overflow.visible,
-          children: [
-            Positioned(
-              left: 0.0,
-              top: null,
-              right: 0.0,
-              bottom: null,
-              width: null,
-              height: 104.0,
+      child:
+          Stack(fit: StackFit.expand, alignment: Alignment.center, children: [
+        Positioned(
+          left: 0.0,
+          top: null,
+          right: 0.0,
+          bottom: null,
+          width: null,
+          height: 104.0,
+          child: LayoutBuilder(
+              builder: (BuildContext context, BoxConstraints constraints) {
+            final double width = constraints.maxWidth;
+
+            return Stack(children: [
+              TransformHelper.translate(
+                  x: 0,
+                  y: 0,
+                  z: 0,
+                  child: Container(
+                    width: width,
+                    child: GeneratedRectangle5Widget1(),
+                  ))
+            ]);
+          }),
+        ),
+        Positioned(
+          left: 0.0,
+          top: null,
+          right: 0.0,
+          bottom: null,
+          width: null,
+          height: 78.0,
+          child: LayoutBuilder(
+              builder: (BuildContext context, BoxConstraints constraints) {
+            double percentWidth = 0.2215909090909091;
+            double scaleX = (constraints.maxWidth * percentWidth) / 78.0;
+
+            return Stack(children: [
+              TransformHelper.translateAndScale(
+                  translateX: constraints.maxWidth * 0.07954545454545454,
+                  translateY: 0,
+                  translateZ: 0,
+                  scaleX: scaleX,
+                  scaleY: 1,
+                  scaleZ: 1,
+                  child: GeneratedEllipse1Widget1())
+            ]);
+          }),
+        ),
+        Positioned(
+          left: 0.0,
+          top: null,
+          right: 0.0,
+          bottom: null,
+          width: null,
+          height: 17.0,
+          child: TransformHelper.translate(
+              x: 0.00,
+              y: -30.50,
+              z: 0,
               child: LayoutBuilder(
                   builder: (BuildContext context, BoxConstraints constraints) {
-                final double width = constraints.maxWidth;
+                final double width = constraints.maxWidth * 0.3125;
 
                 return Stack(children: [
                   TransformHelper.translate(
-                      x: 0,
+                      x: constraints.maxWidth * 0.3380681818181818,
                       y: 0,
                       z: 0,
                       child: Container(
                         width: width,
-                        child: GeneratedRectangle5Widget1(),
+                        child: GeneratedEmiratesTabacariaWidget(),
                       ))
                 ]);
-              }),
-            ),
-            Positioned(
-              left: 0.0,
-              top: null,
-              right: 0.0,
-              bottom: null,
-              width: null,
-              height: 78.0,
+              })),
+        ),
+        Positioned(
+          left: 0.0,
+          top: null,
+          right: 0.0,
+          bottom: null,
+          width: null,
+          height: 20.0,
+          child: TransformHelper.translate(
+              x: 0.00,
+              y: 2.00,
+              z: 0,
               child: LayoutBuilder(
                   builder: (BuildContext context, BoxConstraints constraints) {
-                double percentWidth = 0.2215909090909091;
-                double scaleX = (constraints.maxWidth * percentWidth) / 78.0;
+                final double width = constraints.maxWidth * 0.125;
 
                 return Stack(children: [
-                  TransformHelper.translateAndScale(
-                      translateX: constraints.maxWidth * 0.07954545454545454,
-                      translateY: 0,
-                      translateZ: 0,
-                      scaleX: scaleX,
-                      scaleY: 1,
-                      scaleZ: 1,
-                      child: GeneratedEllipse1Widget1())
+                  TransformHelper.translate(
+                      x: constraints.maxWidth * 0.7954545454545454,
+                      y: 0,
+                      z: 0,
+                      child: Container(
+                        width: width,
+                        child: GeneratedAbertoWidget1(),
+                      ))
                 ]);
-              }),
-            ),
-            Positioned(
-              left: 0.0,
-              top: null,
-              right: 0.0,
-              bottom: null,
-              width: null,
-              height: 17.0,
-              child: TransformHelper.translate(
-                  x: 0.00,
-                  y: -30.50,
-                  z: 0,
-                  child: LayoutBuilder(builder:
-                      (BuildContext context, BoxConstraints constraints) {
-                    final double width = constraints.maxWidth * 0.3125;
+              })),
+        ),
+        Positioned(
+          left: 0.0,
+          top: null,
+          right: 0.0,
+          bottom: null,
+          width: null,
+          height: 17.0,
+          child: TransformHelper.translate(
+              x: 0.00,
+              y: 32.50,
+              z: 0,
+              child: LayoutBuilder(
+                  builder: (BuildContext context, BoxConstraints constraints) {
+                final double width = constraints.maxWidth * 0.22443181818181818;
 
-                    return Stack(children: [
-                      TransformHelper.translate(
-                          x: constraints.maxWidth * 0.3380681818181818,
-                          y: 0,
-                          z: 0,
-                          child: Container(
-                            width: width,
-                            child: GeneratedEmiratesTabacariaWidget(),
-                          ))
-                    ]);
-                  })),
-            ),
-            Positioned(
-              left: 0.0,
-              top: null,
-              right: 0.0,
-              bottom: null,
-              width: null,
-              height: 20.0,
-              child: TransformHelper.translate(
-                  x: 0.00,
-                  y: 2.00,
-                  z: 0,
-                  child: LayoutBuilder(builder:
-                      (BuildContext context, BoxConstraints constraints) {
-                    final double width = constraints.maxWidth * 0.125;
+                return Stack(children: [
+                  TransformHelper.translate(
+                      x: constraints.maxWidth * 0.3380681818181818,
+                      y: 0,
+                      z: 0,
+                      child: Container(
+                        width: width,
+                        child: Generated10002200Widget1(),
+                      ))
+                ]);
+              })),
+        ),
+        Positioned(
+          left: 0.0,
+          top: null,
+          right: 0.0,
+          bottom: null,
+          width: null,
+          height: 20.0,
+          child: TransformHelper.translate(
+              x: 0.00,
+              y: 2.00,
+              z: 0,
+              child: LayoutBuilder(
+                  builder: (BuildContext context, BoxConstraints constraints) {
+                final double width = constraints.maxWidth * 0.17329545454545456;
 
-                    return Stack(children: [
-                      TransformHelper.translate(
-                          x: constraints.maxWidth * 0.7954545454545454,
-                          y: 0,
-                          z: 0,
-                          child: Container(
-                            width: width,
-                            child: GeneratedAbertoWidget1(),
-                          ))
-                    ]);
-                  })),
-            ),
-            Positioned(
-              left: 0.0,
-              top: null,
-              right: 0.0,
-              bottom: null,
-              width: null,
-              height: 17.0,
-              child: TransformHelper.translate(
-                  x: 0.00,
-                  y: 32.50,
-                  z: 0,
-                  child: LayoutBuilder(builder:
-                      (BuildContext context, BoxConstraints constraints) {
-                    final double width =
-                        constraints.maxWidth * 0.22443181818181818;
-
-                    return Stack(children: [
-                      TransformHelper.translate(
-                          x: constraints.maxWidth * 0.3380681818181818,
-                          y: 0,
-                          z: 0,
-                          child: Container(
-                            width: width,
-                            child: Generated10002200Widget1(),
-                          ))
-                    ]);
-                  })),
-            ),
-            Positioned(
-              left: 0.0,
-              top: null,
-              right: 0.0,
-              bottom: null,
-              width: null,
-              height: 20.0,
-              child: TransformHelper.translate(
-                  x: 0.00,
-                  y: 2.00,
-                  z: 0,
-                  child: LayoutBuilder(builder:
-                      (BuildContext context, BoxConstraints constraints) {
-                    final double width =
-                        constraints.maxWidth * 0.17329545454545456;
-
-                    return Stack(children: [
-                      TransformHelper.translate(
-                          x: constraints.maxWidth * 0.3380681818181818,
-                          y: 0,
-                          z: 0,
-                          child: Container(
-                            width: width,
-                            child: GeneratedTabacariaWidget1(),
-                          ))
-                    ]);
-                  })),
-            )
-          ]),
+                return Stack(children: [
+                  TransformHelper.translate(
+                      x: constraints.maxWidth * 0.3380681818181818,
+                      y: 0,
+                      z: 0,
+                      child: Container(
+                        width: width,
+                        child: GeneratedTabacariaWidget1(),
+                      ))
+                ]);
+              })),
+        )
+      ]),
     );
   }
 }

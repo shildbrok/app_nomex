@@ -17,57 +17,54 @@ class GeneratedAdd_remWidget2 extends StatelessWidget {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(0.0),
       ),
-      child: Stack(
-          fit: StackFit.expand,
-          alignment: Alignment.center,
-          overflow: Overflow.visible,
-          children: [
-            Positioned(
-              left: 28.0,
-              top: 3.3173041343688965,
-              right: null,
-              bottom: null,
-              width: 37.0,
-              height: 32.06730651855469,
-              child: GeneratedFrame10Widget2(),
-            ),
-            Positioned(
-              left: 65.0,
-              top: 5.528842449188232,
-              right: null,
-              bottom: null,
-              width: 28.0,
-              height: 26.538461685180664,
-              child: GeneratedRectangle7Widget4(),
-            ),
-            Positioned(
-              left: 0.0,
-              top: 5.528842449188232,
-              right: null,
-              bottom: null,
-              width: 28.0,
-              height: 26.538461685180664,
-              child: GeneratedRectangle8Widget3(),
-            ),
-            Positioned(
-              left: 70.0,
-              top: 0.0,
-              right: null,
-              bottom: null,
-              width: 22.0,
-              height: 32.644229888916016,
-              child: GeneratedWidget8(),
-            ),
-            Positioned(
-              left: 8.0,
-              top: 1.105765700340271,
-              right: null,
-              bottom: null,
-              width: 22.0,
-              height: 32.644229888916016,
-              child: GeneratedWidget9(),
-            )
-          ]),
+      child:
+          Stack(fit: StackFit.expand, alignment: Alignment.center, children: [
+        Positioned(
+          left: 28.0,
+          top: 3.3173041343688965,
+          right: null,
+          bottom: null,
+          width: 37.0,
+          height: 32.06730651855469,
+          child: GeneratedFrame10Widget2(),
+        ),
+        Positioned(
+          left: 65.0,
+          top: 5.528842449188232,
+          right: null,
+          bottom: null,
+          width: 28.0,
+          height: 26.538461685180664,
+          child: GeneratedRectangle7Widget4(),
+        ),
+        Positioned(
+          left: 0.0,
+          top: 5.528842449188232,
+          right: null,
+          bottom: null,
+          width: 28.0,
+          height: 26.538461685180664,
+          child: GeneratedRectangle8Widget3(),
+        ),
+        Positioned(
+          left: 70.0,
+          top: 0.0,
+          right: null,
+          bottom: null,
+          width: 22.0,
+          height: 32.644229888916016,
+          child: GeneratedWidget8(),
+        ),
+        Positioned(
+          left: 8.0,
+          top: 1.105765700340271,
+          right: null,
+          bottom: null,
+          width: 22.0,
+          height: 32.644229888916016,
+          child: GeneratedWidget9(),
+        )
+      ]),
     );
   }
 }

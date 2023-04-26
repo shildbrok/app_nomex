@@ -18,61 +18,58 @@ class GeneratedSlidBarWidget1 extends StatelessWidget {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(0.0),
       ),
-      child: Stack(
-          fit: StackFit.expand,
-          alignment: Alignment.center,
-          overflow: Overflow.visible,
-          children: [
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 625.0,
-              height: 36.0,
-              child: GeneratedRectangle6Widget1(),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 76.0,
-              height: 25.0,
-              child: TransformHelper.translate(
-                  x: -263.50, y: -0.50, z: 0, child: GeneratedFrame6Widget1()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 76.0,
-              height: 25.0,
-              child: TransformHelper.translate(
-                  x: -176.50, y: -0.50, z: 0, child: GeneratedFrame7Widget1()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 91.0,
-              height: 25.0,
-              child: TransformHelper.translate(
-                  x: -78.00, y: -0.50, z: 0, child: GeneratedFrame8Widget1()),
-            ),
-            Positioned(
-              left: null,
-              top: null,
-              right: null,
-              bottom: null,
-              width: 91.0,
-              height: 25.0,
-              child: TransformHelper.translate(
-                  x: 27.00, y: -0.50, z: 0, child: GeneratedFrame9Widget1()),
-            )
-          ]),
+      child:
+          Stack(fit: StackFit.expand, alignment: Alignment.center, children: [
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 625.0,
+          height: 36.0,
+          child: GeneratedRectangle6Widget1(),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 76.0,
+          height: 25.0,
+          child: TransformHelper.translate(
+              x: -263.50, y: -0.50, z: 0, child: GeneratedFrame6Widget1()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 76.0,
+          height: 25.0,
+          child: TransformHelper.translate(
+              x: -176.50, y: -0.50, z: 0, child: GeneratedFrame7Widget1()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 91.0,
+          height: 25.0,
+          child: TransformHelper.translate(
+              x: -78.00, y: -0.50, z: 0, child: GeneratedFrame8Widget1()),
+        ),
+        Positioned(
+          left: null,
+          top: null,
+          right: null,
+          bottom: null,
+          width: 91.0,
+          height: 25.0,
+          child: TransformHelper.translate(
+              x: 27.00, y: -0.50, z: 0, child: GeneratedFrame9Widget1()),
+        )
+      ]),
     );
   }
 }

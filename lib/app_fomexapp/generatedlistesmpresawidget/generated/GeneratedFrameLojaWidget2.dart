@@ -22,83 +22,71 @@ class GeneratedFrameLojaWidget2 extends StatelessWidget {
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(0.0),
         ),
-        child: Stack(
-            fit: StackFit.expand,
-            alignment: Alignment.center,
-            overflow: Overflow.visible,
-            children: [
-              Positioned(
-                left: null,
-                top: null,
-                right: null,
-                bottom: null,
-                width: 352.0,
-                height: 104.0,
-                child: GeneratedRectangle5Widget9(),
-              ),
-              Positioned(
-                left: null,
-                top: null,
-                right: null,
-                bottom: null,
-                width: 78.0,
-                height: 78.0,
-                child: TransformHelper.translate(
-                    x: -109.00,
-                    y: 0.00,
-                    z: 0,
-                    child: GeneratedEllipse1Widget7()),
-              ),
-              Positioned(
-                left: null,
-                top: null,
-                right: null,
-                bottom: null,
-                width: 100.0,
-                height: 17.0,
-                child: TransformHelper.translate(
-                    x: -7.00,
-                    y: -30.50,
-                    z: 0,
-                    child: GeneratedAnubisTabacariaWidget1()),
-              ),
-              Positioned(
-                left: null,
-                top: null,
-                right: null,
-                bottom: null,
-                width: 79.0,
-                height: 17.0,
-                child: TransformHelper.translate(
-                    x: -17.50,
-                    y: 32.50,
-                    z: 0,
-                    child: Generated10002200Widget3()),
-              ),
-              Positioned(
-                left: null,
-                top: null,
-                right: null,
-                bottom: null,
-                width: 44.0,
-                height: 20.0,
-                child: TransformHelper.translate(
-                    x: 126.00, y: 2.00, z: 0, child: GeneratedAbertoWidget2()),
-              ),
-              Positioned(
-                left: null,
-                top: null,
-                right: null,
-                bottom: null,
-                width: 61.0,
-                height: 20.0,
-                child: TransformHelper.translate(
-                    x: -26.50,
-                    y: 2.00,
-                    z: 0,
-                    child: GeneratedTabacariaWidget4()),
-              )
-            ]),
+        child:
+            Stack(fit: StackFit.expand, alignment: Alignment.center, children: [
+          Positioned(
+            left: null,
+            top: null,
+            right: null,
+            bottom: null,
+            width: 352.0,
+            height: 104.0,
+            child: GeneratedRectangle5Widget9(),
+          ),
+          Positioned(
+            left: null,
+            top: null,
+            right: null,
+            bottom: null,
+            width: 78.0,
+            height: 78.0,
+            child: TransformHelper.translate(
+                x: -109.00, y: 0.00, z: 0, child: GeneratedEllipse1Widget7()),
+          ),
+          Positioned(
+            left: null,
+            top: null,
+            right: null,
+            bottom: null,
+            width: 100.0,
+            height: 17.0,
+            child: TransformHelper.translate(
+                x: -7.00,
+                y: -30.50,
+                z: 0,
+                child: GeneratedAnubisTabacariaWidget1()),
+          ),
+          Positioned(
+            left: null,
+            top: null,
+            right: null,
+            bottom: null,
+            width: 79.0,
+            height: 17.0,
+            child: TransformHelper.translate(
+                x: -17.50, y: 32.50, z: 0, child: Generated10002200Widget3()),
+          ),
+          Positioned(
+            left: null,
+            top: null,
+            right: null,
+            bottom: null,
+            width: 44.0,
+            height: 20.0,
+            child: TransformHelper.translate(
+                x: 126.00, y: 2.00, z: 0, child: GeneratedAbertoWidget2()),
+          ),
+          Positioned(
+            left: null,
+            top: null,
+            right: null,
+            bottom: null,
+            width: 61.0,
+            height: 20.0,
+            child: TransformHelper.translate(
+                x: -26.50, y: 2.00, z: 0, child: GeneratedTabacariaWidget4()),
+          )
+        ]),
       ),
     );
   }
